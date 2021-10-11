@@ -1,0 +1,81 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#70e1f5), to(#ffd194));
+  background: linear-gradient(to right, #70e1f5, #ffd194);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body h2 {
+  font-size: 30px;
+  color: #3e489e;
+}
+
+body h2 span {
+  color: #950b0b;
+}
+
+button {
+  background-color: #d4e978;
+  -webkit-box-shadow: 0 0 10px rgba(180, 139, 139, 0);
+          box-shadow: 0 0 10px rgba(180, 139, 139, 0);
+}
+
+.grid {
+  border: 1px solid #4d4545;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 370px;
+  width: 430px;
+  background: #a79cbb;
+  grid-gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+
+.grid div {
+  height: 50px;
+  width: 50px;
+}
+
+.grid div:not(.taken) {
+  border: 1px solid #ddd;
+}
+
+.player-one {
+  background-color: #950b0b;
+  border-radius: 25px;
+}
+
+.player-two {
+  background-color: #3e489e;
+  border-radius: 25px;
+}
+
+.infoText {
+  width: 50%;
+  margin: auto;
+}
+
+.infoText button {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2f0a0a;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 15vh;
+}
+/*# sourceMappingURL=style.css.map */

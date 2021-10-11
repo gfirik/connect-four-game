@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Connect <span>Four</span></h2>
+    <button id="info">Instruction</button>
+    
+    <div id="infoText" class="infoText">
+        <p> 
+            First, decide who goes first and what color each player will have. <br>
+            Players must alternate turns, and only one disc can be dropped in each turn. <br> 
+            On your turn, drop one of your colored discs from the top into any of the seven slots. <br> 
+            The game ends when there is a 4-in-a-row or a stalemate. <br>
+            The starter of the previous game goes second on the next game. <br>
+            For more info about Connect Four game click <a href="https://en.wikipedia.org/wiki/Connect_Four" target="_blank">here...</a>
+        </p>
+        <button id="infoClose">Close</button>
+    </div>
+    <h3>The current player: Player <span id="current-player">1</span></h3>
+    <h3 id="result"></h3>
+
+    <div class="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+        <div class="taken"></div>
+    </div>
+
+    <a class="footer" href="https://github.com/gfirik">&copy;gfirik</a>
+    <script src="app.js"></script>
+</body>
+</html>

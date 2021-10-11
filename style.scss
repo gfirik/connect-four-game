@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #70e1f5, #ffd194); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    h2 { 
+        font-size: 30px;
+        color: rgb(62, 72, 158);
+        span {
+            color: rgb(149, 11, 11);
+        }
+    }
+}
+
+button {
+    background-color: rgb(212, 233, 120);
+    box-shadow: 0 0 10px rgba(180, 139, 139, 0);
+}
+.grid {
+    border: 1px solid rgb(77, 69, 69);
+    display: flex;
+    flex-wrap: wrap;
+    height: 370px;
+    width: 430px;
+    background: rgb(167, 156, 187);
+    grid-gap: 5px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.grid div {
+    height: 50px;
+    width: 50px;
+}
+.grid div:not(.taken) {
+    border: 1px solid #ddd;
+}
+.player-one {
+    background-color: rgb(149, 11, 11);
+    border-radius: 25px;
+}
+.player-two {
+    background-color: rgb(62, 72, 158);
+    border-radius: 25px;
+}
+.infoText {
+    width: 50%;
+    margin: auto;
+    button {
+        margin: auto;
+    }
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(47, 10, 10);
+    cursor: pointer;
+}
+.footer {
+    margin-top: 15vh;
+}
